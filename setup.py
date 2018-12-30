@@ -12,7 +12,7 @@ setup(name='CBPiActor1',
       package_data={
         # If any package contains *.txt or *.rst files, include them:
       '': ['*.txt', '*.rst', '*.yaml'],
-      'cbpi-actor': ['*.txt', '*.rst', '*.yaml']},
+      'cbpi-actor': ['*','*.txt', '*.rst', '*.yaml']},
       packages=['cbpi-actor'],
      )
 

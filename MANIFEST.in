@@ -1,1 +1,2 @@
 include cbpi-actor/config.yaml
+recursive-include cbpi-actor/static *
