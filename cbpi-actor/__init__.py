@@ -2,7 +2,7 @@ import asyncio
 import os
 
 from aiohttp import web
-from cbpi_api import *
+from cbpi.api import *
 
 
 class MyActor(CBPiActor):
@@ -55,8 +55,7 @@ def setup(cbpi):
     :return:
     '''
 
-    print("HALLOOOOOOO")
-    print(cbpi.config2.get("CBPI_TEST_1", "WOOHOO"))
+
     cbpi.plugin.register("MyActor", MyActor)
     cbpi.plugin.register("MyActor", MyActor)
     cbpi.plugin.register("MyActor2", MyActor2)

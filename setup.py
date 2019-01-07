@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-setup(name='CBPiActor1',
+setup(name='cbpi-actor',
       version='4.0.3',
       description='CraftBeerPi Actor Example',
       author='Manuel Fritsch',
